@@ -27,7 +27,7 @@
                         HeightRequest="100"
                         HorizontalOptions="Center"
                         VerticalOptions="CenterAndExpand">
-                        <Label Text="{Binding .}" />
+                        <Label Text="{Binding Name}" />
                     </Frame>
                 </StackLayout>
             </DataTemplate>
