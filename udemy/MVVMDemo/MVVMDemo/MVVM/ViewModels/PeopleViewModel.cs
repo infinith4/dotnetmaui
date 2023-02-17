@@ -3,7 +3,7 @@ namespace MVVMDemo.MVVM.ViewModels
 {
 	public class PeopleViewModel
     {
-        public List<Models.Person> People = new List<Models.Person>();
+        public List<Models.Person> People { get; set; } = new List<Models.Person>();
         public PeopleViewModel()
         {
             People.Add(new Models.Person() { Name = "test1", Age = 10, BirthDate = new DateTime(1298, 12, 1), Married = true, Weight = 10, Lunchtime = new TimeSpan(12, 30, 0) });
