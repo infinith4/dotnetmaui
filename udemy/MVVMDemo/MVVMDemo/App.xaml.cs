@@ -8,7 +8,8 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new PersonView();
-	}
+        //MainPage = new PersonView();
+        MainPage = new PeopleView();
+    }
 }
 
