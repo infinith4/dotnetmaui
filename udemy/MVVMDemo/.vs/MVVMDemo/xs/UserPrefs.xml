@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{E8982D6E-C9F1-4AAD-BDF3-986F159AAF87}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MVVMDemo PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVVMDemo/App.xaml">
+    <Files>
+      <File FileName="MVVMDemo/MainPage.xaml.cs" />
+      <File FileName="MVVMDemo/MainPage.xaml" />
+      <File FileName="MVVMDemo/MVVM/Models/Person.cs" />
+      <File FileName="MVVMDemo/MVVM/Views/PersonView.xaml" />
+      <File FileName="MVVMDemo/MVVM/Views/PersonView.xaml.cs" />
+      <File FileName="MVVMDemo/App.xaml.cs" />
+      <File FileName="MVVMDemo/MVVM/ViewModels/PersonViewModel.cs" />
+      <File FileName="MVVMDemo/App.xaml" Line="8" Column="52" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MVVMDemo" expanded="True">
+            <Node name="MVVMDemo" expanded="True">
+              <Node name="MVVM" expanded="True">
+                <Node name="Models" expanded="True" />
+                <Node name="ViewModels" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="PersonView.xaml" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Resources" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
