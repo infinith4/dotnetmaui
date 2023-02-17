@@ -1,19 +1,24 @@
 ﻿<Properties StartupConfiguration="{E8982D6E-C9F1-4AAD-BDF3-986F159AAF87}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MVVMDemo/App.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVVMDemo/MVVM/Views/PeopleView.xaml">
     <Files>
+      <File FileName="MVVMDemo/MVVM/Views/PeopleView.xaml" Line="23" Column="35" IsPinned="True" />
+      <File FileName="MVVMDemo/MVVM/ViewModels/PersonViewModel.cs" Line="18" Column="26" IsPinned="True" />
+      <File FileName="MVVMDemo/MVVM/ViewModels/PeopleViewModel.cs" Line="14" Column="23" IsPinned="True" />
       <File FileName="MVVMDemo/MainPage.xaml.cs" />
-      <File FileName="MVVMDemo/MainPage.xaml" />
-      <File FileName="MVVMDemo/MVVM/Models/Person.cs" />
-      <File FileName="MVVMDemo/MVVM/Views/PersonView.xaml" />
-      <File FileName="MVVMDemo/MVVM/Views/PersonView.xaml.cs" />
-      <File FileName="MVVMDemo/App.xaml.cs" />
-      <File FileName="MVVMDemo/MVVM/ViewModels/PersonViewModel.cs" />
-      <File FileName="MVVMDemo/App.xaml" Line="8" Column="52" />
+      <File FileName="MVVMDemo/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="MVVMDemo/MVVM/Models/Person.cs" Line="11" Column="34" />
+      <File FileName="MVVMDemo/MVVM/Views/PersonView.xaml.cs" Line="12" Column="21" />
+      <File FileName="MVVMDemo/MVVM/Views/PersonView.xaml" Line="12" Column="9" />
+      <File FileName="MVVMDemo/MVVM/Views/PeopleView.xaml.cs" Line="12" Column="2" />
+      <File FileName="MVVMDemo/App.xaml" Line="1" Column="1" />
+      <File FileName="MVVMDemo/App.xaml.cs" Line="11" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,12 +28,9 @@
               <Node name="MVVM" expanded="True">
                 <Node name="Models" expanded="True" />
                 <Node name="ViewModels" expanded="True" />
-                <Node name="Views" expanded="True">
-                  <Node name="PersonView.xaml" expanded="True" />
-                </Node>
+                <Node name="Views" expanded="True" />
               </Node>
               <Node name="Resources" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
