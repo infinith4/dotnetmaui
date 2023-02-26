@@ -5,10 +5,17 @@ namespace MVVMDemo.MVVM.ViewModels
 {
 	public class CommandsViewModel
 	{
-		public ICommand ClickCommand => new Command(Alert);
+		public ICommand ClickCommand { get; }
 
-		private void Alert() {
-			App.Current.MainPage.DisplayAlert("Title", "message", "OK");
+		public CommandsViewModel() {
+			ClickCommand = new Command(() =>
+			{
+				App.Current.MainPage.DisplayAlert("Title", "message", "OK");
+            });
+		}
+
+        private void Alert() {
+			
         }
     }
 }
