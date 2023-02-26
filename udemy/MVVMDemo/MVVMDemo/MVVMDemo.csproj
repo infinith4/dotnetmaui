@@ -53,12 +53,14 @@
 	  <None Remove="MVVM\Models\" />
 	  <None Remove="MVVM\ViewModels\" />
 	  <None Remove="MVVM\Views\" />
+	  <None Remove="MVVM\Converters\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="MVVM\" />
 	  <Folder Include="MVVM\Models\" />
 	  <Folder Include="MVVM\ViewModels\" />
 	  <Folder Include="MVVM\Views\" />
+	  <Folder Include="MVVM\Converters\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <MauiXaml Remove="Resources\Styles\Styles.xaml" />
@@ -74,6 +76,9 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <MauiXaml Update="MVVM\Views\PeopleView.xaml">
+	    <SubType></SubType>
+	  </MauiXaml>
+	  <MauiXaml Update="MVVM\Views\ConvertersView.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
 	</ItemGroup>

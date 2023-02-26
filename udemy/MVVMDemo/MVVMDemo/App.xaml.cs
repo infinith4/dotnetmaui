@@ -9,7 +9,9 @@ public partial class App : Application
 		InitializeComponent();
 
         //MainPage = new PersonView();
-        MainPage = new PeopleView();
+        //MainPage = new PeopleView();
+        //MainPage = new ConvertersView();
+        MainPage = new CommandsView();
     }
 }
 
