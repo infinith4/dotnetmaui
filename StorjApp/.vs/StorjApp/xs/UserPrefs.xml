@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{A8456FDB-2813-46A5-9308-51751E9AF316}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/hiroshi/projects/github/infinith4/dotnetmaui/StorjApp/StorjApp/MainPage.xaml.cs" relfile="StorjApp/MainPage.xaml.cs" line="24" column="1" />
+      <Breakpoint file="/Users/hiroshi/projects/github/infinith4/dotnetmaui/StorjApp/StorjApp/MainPage.xaml.cs" relfile="StorjApp/MainPage.xaml.cs" line="28" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StorjApp/MainPage.xaml.cs">
+    <Files>
+      <File FileName="StorjApp/MainPage.xaml.cs" Line="27" Column="1" />
+      <File FileName="StorjApp/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="StorjApp/MauiProgram.cs" Line="1" Column="1" />
+      <File FileName="StorjApp/App.xaml.cs" Line="9" Column="29" />
+      <File FileName="StorjApp/AppShell.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StorjApp" expanded="True">
+            <Node name="StorjApp" expanded="True">
+              <Node name="Dependencies" expanded="True" selected="True" />
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True" />
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>access</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.ItemProperties.StorjApp PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

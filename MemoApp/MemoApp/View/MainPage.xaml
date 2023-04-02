@@ -1,0 +1,27 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MemoApp"
+             x:Class="MemoApp.MainPage"
+             Title="MemoApp">
+    <ContentPage.BindingContext>
+        <local:MemoViewModel />
+    </ContentPage.BindingContext>
+    <StackLayout>
+        <Label Text="New Memo" FontSize="Large" />
+        <Entry Placeholder="Title" Text="{Binding MemoTitle}" />
+        <Editor Placeholder="Content" Text="{Binding MemoContent}" HeightRequest="200" />
+        <Button Text="Add Memo" Command="{Binding AddMemoCommand}" />
+        <ListView ItemsSource="{Binding Memos}" SeparatorVisibility="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="{Binding Title}" FontAttributes="Bold" />
+                            <Label Text="{Binding Content}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

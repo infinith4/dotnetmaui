@@ -1,56 +1,45 @@
 ﻿<Properties StartupConfiguration="{E8982D6E-C9F1-4AAD-BDF3-986F159AAF87}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.MVVMDemo PreferredExecutionTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MVVMDemo/MVVM/Views/CommandsView.xaml.cs">
-    <Files>
-      <File FileName="MVVMDemo/MVVM/Views/PeopleView.xaml" Line="6" Column="75" IsPinned="True" />
-      <File FileName="MVVMDemo/MVVM/ViewModels/PersonViewModel.cs" Line="18" Column="26" IsPinned="True" />
-      <File FileName="MVVMDemo/MVVM/ViewModels/PeopleViewModel.cs" Line="6" Column="55" IsPinned="True" />
-      <File FileName="MVVMDemo/MainPage.xaml.cs" />
-      <File FileName="MVVMDemo/MainPage.xaml" />
-      <File FileName="MVVMDemo/MVVM/Models/Person.cs" />
-      <File FileName="MVVMDemo/MVVM/Views/PersonView.xaml.cs" />
-      <File FileName="MVVMDemo/MVVM/Views/PersonView.xaml" />
-      <File FileName="MVVMDemo/MVVM/Views/PeopleView.xaml.cs" />
-      <File FileName="MVVMDemo/App.xaml" />
-      <File FileName="MVVMDemo/App.xaml.cs" />
-      <File FileName="MVVMDemo/Platforms/Android/AndroidManifest.xml" />
-      <File FileName="MVVMDemo/MVVM/ViewModels/ConvertersViewModel.cs" />
-      <File FileName="MVVMDemo/MVVM/Converters/BoolConverter.cs" />
-      <File FileName="MVVMDemo/MVVM/Views/ConvertersView.xaml" />
-      <File FileName="MVVMDemo/MVVM/Models/Data.cs" />
-      <File FileName="MVVMDemo/MVVM/Views/CommandsView.xaml" />
-      <File FileName="MVVMDemo/MVVM/ViewModels/CommandsViewModel.cs" />
-      <File FileName="MVVMDemo/MVVM/Views/CommandsView.xaml.cs" Line="1" Column="32" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="MVVMDemo" expanded="True">
-            <Node name="MVVMDemo" expanded="True">
-              <Node name="MVVM" expanded="True">
-                <Node name="Converters" expanded="True" />
-                <Node name="Models" expanded="True" />
-                <Node name="ViewModels" expanded="True" />
-                <Node name="Views" expanded="True">
-                  <Node name="CommandsView.xaml" expanded="True">
-                    <Node name="CommandsView.xaml.cs" selected="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/hiroshi/projects/github/infinith4/dotnetmaui/udemy/MVVMDemo/MVVMDemo/MVVM/Converters/BoolConverter.cs" relfile="MVVMDemo/MVVM/Converters/BoolConverter.cs" line="27" column="1" />
       <Breakpoint file="/Users/hiroshi/projects/github/infinith4/dotnetmaui/udemy/MVVMDemo/MVVMDemo/MVVM/Converters/BoolConverter.cs" relfile="MVVMDemo/MVVM/Converters/BoolConverter.cs" line="17" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVVMDemo/MVVM/ViewModels/CommandsViewModel.cs">
+    <Files>
+      <File FileName="MVVMDemo/MVVM/Views/PeopleView.xaml" Line="6" Column="75" IsPinned="True" />
+      <File FileName="MVVMDemo/MVVM/ViewModels/PersonViewModel.cs" Line="18" Column="26" IsPinned="True" />
+      <File FileName="MVVMDemo/MVVM/ViewModels/PeopleViewModel.cs" Line="6" Column="55" IsPinned="True" />
+      <File FileName="MVVMDemo/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="MVVMDemo/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="MVVMDemo/MVVM/Models/Person.cs" />
+      <File FileName="MVVMDemo/MVVM/Views/PersonView.xaml.cs" />
+      <File FileName="MVVMDemo/MVVM/Views/PersonView.xaml" />
+      <File FileName="MVVMDemo/MVVM/Views/PeopleView.xaml.cs" />
+      <File FileName="MVVMDemo/App.xaml" Line="1" Column="1" />
+      <File FileName="MVVMDemo/App.xaml.cs" Line="14" Column="37" />
+      <File FileName="MVVMDemo/Platforms/Android/AndroidManifest.xml" />
+      <File FileName="MVVMDemo/MVVM/ViewModels/ConvertersViewModel.cs" />
+      <File FileName="MVVMDemo/MVVM/Converters/BoolConverter.cs" />
+      <File FileName="MVVMDemo/MVVM/Views/ConvertersView.xaml" />
+      <File FileName="MVVMDemo/MVVM/Models/Data.cs" />
+      <File FileName="MVVMDemo/MVVM/Views/CommandsView.xaml" Line="8" Column="60" />
+      <File FileName="MVVMDemo/MVVM/ViewModels/CommandsViewModel.cs" Line="17" Column="2" />
+      <File FileName="MVVMDemo/MVVM/Views/CommandsView.xaml.cs" Line="1" Column="32" />
+      <File FileName="MVVMDemo/AppShell.xaml" Line="1" Column="1" />
+      <File FileName="MVVMDemo/MauiProgram.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MVVMDemo" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MVVMDemo PreferredExecutionTarget="MyAppleMacCatalystID" />
 </Properties>
