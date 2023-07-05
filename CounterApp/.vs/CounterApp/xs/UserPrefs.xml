@@ -1,4 +1,39 @@
 ﻿<Properties StartupConfiguration="{A341A481-D512-4629-B2F2-6C33FBDD4892}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CounterApp PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CounterApp/MainPage.xaml">
+    <Files>
+      <File FileName="CounterApp/MainPage.xaml.cs" />
+      <File FileName="CounterApp/MainPage.xaml" Line="20" Column="46" />
+      <File FileName="CounterApp/Resources/Images/dotnet_bot.svg" />
+      <File FileName="CounterApp/Resources/Images/img_dog.svg" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CounterApp" expanded="True">
+            <Node name="CounterApp" expanded="True">
+              <Node name="Platforms" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="AppIcon" expanded="True" />
+                <Node name="Fonts" expanded="True" />
+                <Node name="Images" expanded="True" />
+                <Node name="Raw" expanded="True" />
+                <Node name="Splash" expanded="True" />
+                <Node name="Styles" expanded="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CounterApp FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
 </Properties>
