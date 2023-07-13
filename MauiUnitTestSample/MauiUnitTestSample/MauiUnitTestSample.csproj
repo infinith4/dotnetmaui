@@ -1,11 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net6.0-android;net6.0-ios;net6.0-maccatalyst</TargetFrameworks>
+		<!-- xUnit: Add net6.0; here -->
+		<TargetFrameworks>net6.0;net6.0-android;net6.0-ios;net6.0-maccatalyst</TargetFrameworks>
 		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net6.0-windows10.0.19041.0</TargetFrameworks>
 		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
 		<!-- <TargetFrameworks>$(TargetFrameworks);net6.0-tizen</TargetFrameworks> -->
-		<OutputType>Exe</OutputType>
+		
+		<!-- xUnit: The condition here only excludes this for the unit test project -->
+		<OutputType Condition="'$(TargetFramework)' != 'net6.0'">Exe</OutputType>
 		<RootNamespace>MauiUnitTestSample</RootNamespace>
 		<UseMaui>true</UseMaui>
 		<SingleProject>true</SingleProject>
@@ -16,7 +19,7 @@
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.mauiunittestsample</ApplicationId>
-		<ApplicationIdGuid>4766243d-235a-4e80-9f1e-9e916147378c</ApplicationIdGuid>
+		<ApplicationIdGuid>37F64AD5-A0C4-498E-A928-7E6665A67F43</ApplicationIdGuid>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>

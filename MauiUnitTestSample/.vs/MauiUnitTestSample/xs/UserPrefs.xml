@@ -1,27 +1,34 @@
-﻿<Properties StartupConfiguration="{3A23435C-25FC-4067-9550-F54E3C64BB9D}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.ItemProperties.MauiUnitTestSample FirstBuild="True" PreferredExecutionTarget="MyAppleMacCatalystID" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MauiUnitTestSample/MainPage.xaml">
+﻿<Properties StartupConfiguration="{4AAA7A11-8829-4E68-B51E-3E84D399BF35}|Default">
+  <MonoDevelop.Ide.ItemProperties.MauiUnitTestSample PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MauiTestProject/UnitTest1.cs">
     <Files>
+      <File FileName="MauiUnitTestSample/MauiProgram.cs" />
       <File FileName="MauiUnitTestSample/MainPage.xaml.cs" />
-      <File FileName="MauiUnitTestSample/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="MauiTestProject/UnitTest1.cs" Line="9" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MauiUnitTestSample" expanded="True">
+          <Node name="MauiUnitTestSample" expanded="True" selected="True">
             <Node name="MauiUnitTestSample">
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Platforms" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MauiTestProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/hiroshi/projects/github/infinith4/MauiUnitTestSample/MauiTestProject/UnitTest1.cs" relfile="MauiTestProject/UnitTest1.cs" line="10" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

@@ -8,4 +8,3 @@ namespace MauiUnitTestSample;
 public class MainActivity : MauiAppCompatActivity
 {
 }
-
