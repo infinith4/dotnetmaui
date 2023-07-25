@@ -10,7 +10,8 @@ public static class MauiProgram
         {
             Assemblies =
             {
-                    typeof(MauiProgram).Assembly
+                    typeof(MauiProgram).Assembly,
+                    typeof(xunitrunnersmauitests01.UnitTest1).Assembly
             }
         })
         .UseVisualRunner()
