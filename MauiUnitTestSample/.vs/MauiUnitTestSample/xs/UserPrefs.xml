@@ -1,27 +1,7 @@
 ﻿<Properties StartupConfiguration="{A8F82E77-E9B0-40B6-8F20-B694C0EFD895}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.MauiUnitTestSample PreferredExecutionTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MauiUnitTestSample/MauiUnitTestSample.csproj">
-    <Files>
-      <File FileName="MauiUnitTestSample/MauiProgram.cs" Line="19" Column="1" />
-      <File FileName="MauiUnitTestSample/MainPage.xaml.cs" />
-      <File FileName="MauiTestProject/UnitTest1.cs" />
-      <File FileName="MauiUnitTestSample/MauiUnitTestSample.csproj" Line="17" Column="24" />
-      <File FileName="MauiUnitTestSample/AppShell.xaml.cs" />
-      <File FileName="MauiUnitTestSample/MainPage.xaml" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="MauiUnitTestSample" expanded="True" />
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.MauiTestProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/hiroshi/projects/github/infinith4/dotnetmaui/MauiUnitTestSample/MauiTestProject/UnitTest1.cs" relfile="MauiTestProject/UnitTest1.cs" line="12" column="1" />
@@ -29,4 +9,39 @@
       <Breakpoint file="/Users/hiroshi/projects/github/infinith4/dotnetmaui/MauiUnitTestSample/MauiUnitTestSample/MainPage.xaml.cs" relfile="MauiUnitTestSample/MainPage.xaml.cs" line="16" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.68" />
+  <MonoDevelop.Ide.ItemProperties.MauiUnitTestSample PreferredExecutionTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MauiTestProject/TestUtils/PrivClass.cs">
+    <Files>
+      <File FileName="MauiUnitTestSample/MauiProgram.cs" />
+      <File FileName="MauiUnitTestSample/MainPage.xaml.cs" />
+      <File FileName="MauiTestProject/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="MauiUnitTestSample/MauiUnitTestSample.csproj" />
+      <File FileName="MauiUnitTestSample/AppShell.xaml.cs" />
+      <File FileName="MauiUnitTestSample/MainPage.xaml" />
+      <File FileName="MauiTestProject/MauiTestProject.csproj" />
+      <File FileName="MauiTestProject/Utils/PrivateObject.cs" Line="11" Column="31" />
+      <File FileName="MauiUnitTestSample/Utils/PrivClass.cs" Line="14" Column="10" />
+      <File FileName="MauiTestProject/TestUtils/PrivClass.cs" Line="10" Column="44" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MauiUnitTestSample" expanded="True">
+            <Node name="MauiTestProject">
+              <Node name="TestUtils" expanded="True">
+                <Node name="PrivClass.cs" selected="True" />
+              </Node>
+              <Node name="Utils" expanded="True" />
+            </Node>
+            <Node name="MauiUnitTestSample" expanded="True">
+              <Node name="Utils" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>

@@ -26,4 +26,12 @@
     <ProjectReference Include="..\MauiUnitTestSample\MauiUnitTestSample.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Utils\" />
+    <None Remove="TestUtils\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utils\" />
+    <Folder Include="TestUtils\" />
+  </ItemGroup>
 </Project>
