@@ -75,4 +75,7 @@
 	    <ExcludeFromCurrentConfiguration>true</ExcludeFromCurrentConfiguration>
 	  </Compile>
 	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="FakeItEasy" Version="7.4.0" />
+	</ItemGroup>
 </Project>

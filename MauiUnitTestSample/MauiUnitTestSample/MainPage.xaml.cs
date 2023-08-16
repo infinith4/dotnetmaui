@@ -7,7 +7,8 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
-	}
+        Preferences.Default.Set("testKey", "testValue");
+    }
 
     public void OnCounterClicked(object sender, EventArgs e)
 	{
@@ -22,9 +23,21 @@ public partial class MainPage : ContentPage
 	}
 
 
-	public int Counter(){
-		count++;
-		return count;
-	}
+    public int Counter()
+    {
+        var key = Preferences.Default.Get("testKey", "");
+        count++;
+        return count;
+    }
+
+    public int Counter1()
+    {
+        return 1;
+    }
+    public async void OnNewPageClicked(object sender, EventArgs e)
+    {
+        // 同じウィンドウ内で画面遷移
+        await Shell.Current.GoToAsync("newPage1");
+    }
 }
 
